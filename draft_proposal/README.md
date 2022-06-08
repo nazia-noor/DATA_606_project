@@ -12,7 +12,9 @@
 
 **Instructor:** Dr. Chaojie (Jay) Wang
 
-### **Keywords:** *Predictive Analysis, Machine Learning Model, Deep Learning Model, Human Activity Recognition(HAR), Sensor Data*
+### Keywords: 
+
+*Predictive Analysis, Machine Learning Model, Deep Learning Model, Human Activity Recognition(HAR), Sensor Data*
 
 
 
