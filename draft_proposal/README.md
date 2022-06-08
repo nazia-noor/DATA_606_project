@@ -108,9 +108,9 @@ For the deep learning approach, I plan to execute LSTM based model playing with 
 - All the ML models are selected, trained, validated, and tested throughout the process. Trying multiple algorithms and comparing their performance is a frequent technique for building a successful model. I will calculate the accuracy score and compare the models’ performance. Since this is a classification problem, I will use evaluation metrics such as precision, accuracy, and recall.
 
 # Use of Expected Outcome
-The outcome I intend to get is to find a model with the best accuracy score which can recognize Human Activity more precisely. As I have previously mentioned the importance and the benefit we can get from HAR technology like monitoring elder, and disabled people, identifying heart attack symptoms, and predicting the human activity with the highest precision is required. 
+The outcome I intend to get is to find a model with the best accuracy score which can recognize human activity more precisely. I have previously mentioned the importance and the benefit we can get from HAR technology like monitoring elder, and disabled people, identifying heart attack symptoms and for this the prediction of human activity with the highest precision is required. 
 
-The dataset has a column that has the activity labels. These activity labels were done manually from a video recording. This is a lengthy and tedious manual job. That is why the dataset has only 30 participants’ information. If our model can predict human activity more accurately, we can automate the process. We further do not need to manually set our activity label and the activity can be predicted with the sensor data only for further analysis where a large amount of data is required.
+The dataset has a column that has the activity labels. These activity labels were done manually from a video recording. This is a lengthy and tedious manual job. That is why the dataset has only 30 participants’ information. If our model can predict human activity more accurately, we can automate the process. We further do not need to manually set our activity label and the activity can be predicted with the sensor data only for further analysis where a large amount of activity data is required.
 
 
 
