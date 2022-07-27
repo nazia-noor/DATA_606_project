@@ -1,3 +1,5 @@
+# Raw Dataset
+
 This dataset has been scraped from an e-commerce website name "LookFantastic". [Click](https://us.lookfantastic.com/) for the website link.
 I have used **Web Scraper - Free Web Scraping** to scrape data. [Click for link](https://chrome.google.com/webstore/detail/web-scraper-free-web-scra/jnhgnonknehpejjnehehllkliplmbmhn). It is a chrome extension-based scraper. 
 
@@ -33,6 +35,31 @@ The whole skincare option has been downloaded. It included a variety of skin car
 
 **13. Review_star**
 
+# Final Dataset
+
+This is the dataset we got after cleaning and processing it.
+
+**Instances:** 2838 
+
+**Attributes:** 9
+
+**1. name**
+
+**2. price**
+
+**3. product_details**
+
+**4. ingredients**
+
+**5. brand**
+
+**6. product_amount**
+
+**7. measurement_unit**
+
+**8. product_type**
+
+**9. product_size**
 
  
 
