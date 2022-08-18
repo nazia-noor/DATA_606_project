@@ -181,6 +181,22 @@ The most expensive brand is “Skin Point Eight” and the least expensive brand
 
 The most expensive product is almost UDS 1500 which is a face cream and the least expensive products is a little bit less than USD 3 dollar which is a lip balm.
 
+# ML Approaches:
+NLP, or natural language processing, is one of the numerous uses of machine learning.
+NLP can manage text responses, word meaning in context analysis, and human-to-human communication. It enables us to communicate in several ways by making it easier for computers to understand human language.
+
+Google created the well-known method known as BERT (Bidirectional Encoder Representations from Transformers) to extract attributes from text input. It is an open-source machine learning framework for processing natural language (NLP). BERT is a program that uses the text around unclear words in a text to help computers understand what those words mean. The Wikipedia text was used to train the BERT framework, and question and answer datasets may be used to fine-tune it. [3]
+
+I'll employ NLP's BERT technique because my study involves a **multiclass text categorization problem**.
+
+The BERT Technique will be applied in three main steps:
+
+**1. BERT Embedding:** At first, characteristics will be extracte from text data, like word and sentence embedding vectors. To name a few uses, these embeddings are crucial for keyword/search expansion, semantic search, and information retrieval. Based on product details and ingredients, these representations can help in precisely matching expensive products with less expensive options. These vectors are then used as high-quality feature inputs in subsequent models. The inputs for NLP models like LSTMs and CNNs must be numerical vectors, which typically requires transforming variables like vocabulary and portions of speech into numbers. BERT has an advantage over models like Word2Vec in that it generates word representations that are dynamically informed by the words surrounding them, whereas each word in Word2Vec has a fixed representation regardless of the context in which it appears. Context-aware word embeddings gather more sorts of information, improving feature representations and model performance. Python text embedding toolkit "SentenceTransformers" has been used for this.
+
+**2. Finding Cosine Similarity:** After determining the encoding, I obtained the vectors and then looked  for commonalities between them. In order to do this, I used Cosine Similarity, which gives two vectors a score based on how similar they are, with 0 denoting no similarity and 1 denoting complete similarity.
+
+**3. Testing:** Lastly, pricey products were put to the test. The system proposes a relevant product after comparing the user-entered product name to other products. Then I manually checked the pricing column to determine which choice is the least expensive.
+
 
 
 
