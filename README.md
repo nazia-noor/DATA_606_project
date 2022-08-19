@@ -244,6 +244,8 @@ For the serum category, most options are affordable compared to the expensive op
 
 These are the similarities I have found. Note that, The model might have detected more similarities. Since I have limited knowledge of these ingredients, I have found these only.
 
+![Uploading marked_similarity.png…]()
+
 
 The product " Mila Moursi lifting serum 1 fl. oz" is 92% similar to the product "Mila Moursi rejuvenating serum 1 fl. oz". Let's see some of the similarities:
 - Both have the name "mila moursi"
