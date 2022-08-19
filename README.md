@@ -240,6 +240,14 @@ For the cream category, all the options are affordable compared to the expensive
 ![serum_recom](https://user-images.githubusercontent.com/78176162/185469402-5c9d6ccc-698a-4328-ae10-f64ce6ba7256.png)
 For the serum category, most options are affordable compared to the expensive option. the product 'DCL skincare active mattifying cleanser 125ml' is the not cheapest one but has the similarity of 91%. This is a good affordable option for the expensive product of this category. But there is other cheaper options with nearly 90% similarity. 
 
+# Future work:
+
+- Applying the BERT model to the entire dataset to find the most cost-effective alternative and determining whether it can find its duplicate by looking at the entire dataset rather just categories can be a good work.
+
+- I believe there is scope for improving the product category identification.
+
+- A more accurate method could be used to categorize product sizes. For instance, an eye cream's standard size is often less than 30 grams, however after conversion, it was classified as a small size in our dataset. Therefore, there is room for more work here.
+
 
 
 
