@@ -240,6 +240,24 @@ For the cream category, all the options are affordable compared to the expensive
 ![serum_recom](https://user-images.githubusercontent.com/78176162/185469402-5c9d6ccc-698a-4328-ae10-f64ce6ba7256.png)
 For the serum category, most options are affordable compared to the expensive option. the product 'DCL skincare active mattifying cleanser 125ml' is the not cheapest one but has the similarity of 91%. This is a good affordable option for the expensive product of this category. But there is other cheaper options with nearly 90% similarity. 
 
+# Manually checking the similarities:
+
+These are the similarities I have found. Note that, The model might have detected more similarities. Since I have limited knowledge of these ingredients, I have found these only.
+
+
+The product " Mila Moursi lifting serum 1 fl. oz" is 92% similar to the product "Mila Moursi rejuvenating serum 1 fl. oz". Let's see some of the similarities:
+- Both have the name "mila moursi"
+- Both are serum and weigh 1 fl. oz.
+- It was good to interpret word representation in the context. for example, POWERFUL (ignore "and anti-aging") CONCENTRATE can be referred to as POWERFUL ELIXIR. Again, REVITALIZE SKIN can be referred to as RESTORE RADIANCE. 
+- Some ingredients are exactly similar. for some others, the main ingredient is similar but a different variant has been used. For example: "palmitoyl tetrapeptide-7" and "acetyl hexapeptide-8" are both main components is a peptide. Just two different variants have been used in the two products. 
+Another example is- CARBOMER in "Mila Moursi lifting serum 1 fl. oz" and SODIUM PHYTATE in "Mila Moursi rejuvenating serum 1 fl. oz" both are product stabilizer. 
+Also, POLYSORBATE 20 is another form of ALCHOL.
+
+
+
+
+
+
 # Future work:
 
 - Applying the BERT model to the entire dataset to find the most cost-effective alternative and determining whether it can find its duplicate by looking at the entire dataset rather just categories can be a good work.
