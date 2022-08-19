@@ -197,6 +197,57 @@ The BERT Technique will be applied in three main steps:
 
 **3. Testing:** Lastly, pricey products were put to the test. The system proposes a relevant product after comparing the user-entered product name to other products. Then I manually checked the pricing column to determine which choice is the least expensive.
 
+# Final Result
+The top three categories—cleanser, serum, and cream—have been tested.
+The top 5 choices have been examined to determine the outcome. The first picture shows "product recommendation" which refers to the cosine similarity of the products. The first one is the actual product for which we need to look for an affordable alternative.
 
+Then, after printing the top five choices for that product, we selected the one that was most appropriate given its reasonable price and high similarity score. The closer a product is to the original, the greater the similarity score.The least expensive option has been considered the most affordable choice for the pricey product.
+These are the outcomes we obtained using the cosine similarity.
+
+### 1.Cream Category
+
+- **The scores for each product's similarity to the specified most expensive cream are listed below. Since the first one is the specified product, it is one.**
+
+![cream_cos](https://user-images.githubusercontent.com/78176162/185469396-d791ffa6-bffa-4878-9ba3-93e3136ca0a1.png)
+
+- **Here are the top 5 similar options for the most expensive cream.**
+
+
+![cream_recom](https://user-images.githubusercontent.com/78176162/185469397-becc3257-7b01-43dc-90df-fc42ab3cafce.png)
+
+For the cream category, all the top 5 options are affordable compared to the expensive option. For $995 priced “111skin celestial black diamond cream 50ml” cream, the most affordable option from the top 5 highest similarities is the product “Bella aurora Bella multi-perfection day cream combination-oily skin 50ml’ is the cheapest one and the similarity is 87%.
+
+### Cleanser Category
+
+- **The scores for each product's similarity to the specified most expensive cleanser are listed below. Since the first one is the specified product, it is almost one.**
+
+![cleanser_cos](https://user-images.githubusercontent.com/78176162/185469391-130bf6a7-a0f2-4448-be55-12eab7947f75.png)
+
+- **Here are the top 5 similar options for the most expensive cleanser**
+
+![cleanser_recom](https://user-images.githubusercontent.com/78176162/185469393-ba9f0ca4-6bc9-46cb-b6a2-ee07708d2f2e.png)
+For the cream category, all the options are affordable compared to the expensive option. The only affordable option from the top 5 highest similarities is the product “Bella aurora Bella multi-perfection day cream combination-oily skin 50ml’ is the cheapest one and the similarity is 87%, it is considered as the best affordable option.
+
+
+### Serum Category
+
+- **The scores for each product's similarity to the specified most expensive serum are listed below. Since the first one is the specified product, it is almost one.**
+
+![serum_cos](https://user-images.githubusercontent.com/78176162/185469400-1250e956-c6a6-4ce7-a227-84ec044a4f89.png)
+
+- **Here are the top 5 similar options for the most expensive serum**
+
+![serum_recom](https://user-images.githubusercontent.com/78176162/185469402-5c9d6ccc-698a-4328-ae10-f64ce6ba7256.png)
+For the serum category, most options are affordable compared to the expensive option. the product 'DCL skincare active mattifying cleanser 125ml' is the not cheapest one but has the similarity of 91%. This is a good affordable option for the expensive product of this category. But there is other cheaper options with nearly 90% similarity. 
+
+
+
+
+# References:
+
+1. https://www.fortunebusinessinsights.com/skin-care-market-102544
+2. https://www.grandviewresearch.com/industry-analysis/skin-care-products-market
+3. https://www.techtarget.com/searchenterpriseai/definition/BERT-language-model
+4. https://www.freecodecamp.org/news/google-bert-nlp-machine-learning-tutorial/
 
 
